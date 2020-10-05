@@ -1,0 +1,9 @@
+version: "1.0"
+services:
+  unobtanium:
+    container_name: unobtanium
+    build: .
+    ports:
+      - "65534:65535"
+    volumes:
+      - /var/unobtanium:/home/uno/.unobtanium
