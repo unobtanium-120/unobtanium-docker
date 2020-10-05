@@ -1,4 +1,4 @@
-version: "2"
+version: "1.0"
 services:
   unobtanium:
     container_name: unobtanium
