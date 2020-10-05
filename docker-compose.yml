@@ -1,8 +1,9 @@
-version: "1.0"
+version: "2"
 services:
   unobtanium:
     container_name: unobtanium
     build: .
+    image: uno:unobtanium-cli
     ports:
       - "65534:65535"
     volumes:
